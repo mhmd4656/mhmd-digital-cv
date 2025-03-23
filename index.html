@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Elmandor - CV</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-controls">
+            <div class="lang-select-container">
+                <select class="lang-select" onchange="changeLanguage()">
+                    <option value="ar">العربية</option>
+                    <option value="fr">Français</option>
+                    <option value="en">English</option>
+                </select>
+                <i class="fas fa-globe"></i>
+            </div>
+        </div>
+        <h1 data-translate="name">Mohamed Elmandor</h1>
+    </header>
+
+    <main>
+        <!-- Profile Section -->
+        <section class="profile-section animate">
+            <div class="card red">
+                <div class="profile-content">
+                    <div class="intro-text">
+                        <h2 data-translate="greeting"><i class="fas fa-user"></i> مرحبًا، أنا محمد المنظور</h2>
+                        <p data-translate="intro">طالب جامعي بكلية الآداب شعبة الإنجليزية</p>
+                        <a href="https://drive.google.com/file/d/11q8Z1cyiYfPYcWEgV_xvU6YavI9e5OKk/view?usp=drivesdk" download class="btn-download" data-translate="downloadCV">
+                            <i class="fas fa-download"></i> تحميل السيرة الذاتية
+                        </a>
+                    </div>
+                    <div class="image-container">
+                        <img src="profile.jpg" alt="Mohamed Elmandor" class="profile-image">
+                        <div class="border-circle"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Information -->
+        <section class="contact-section animate">
+            <div class="card red">
+                <h3 data-translate="contact"><i class="fas fa-address-book"></i> معلومات الاتصال</h3>
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <i class="fas fa-phone"></i>
+                        <a href="https://wa.me/212679777254" target="_blank" rel="noopener" data-translate="phone">+212-679777254</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:Mohammed.elmandor@usmba.ac.ma" target="_blank" rel="noopener" data-translate="email">Mohammed.elmandor@usmba.ac.ma</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <a href="https://www.google.com/maps/place/نرجس،+فاس،+المغرب" target="_blank" rel="noopener" data-translate="location">المغرب، فاس، النرجس</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fab fa-github"></i>
+                        <a href="https://github.com/mhmd4656" target="_blank" rel="noopener" data-translate="portfolio">Portfolio</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="experience-section animate">
+            <div class="card red">
+                <h3 data-translate="experience"><i class="fas fa-briefcase"></i> الخبرات</h3>
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h4 data-translate="jobTitle">Software Inventor</h4>
+                        <span class="duration">2023 - 2025</span>
+                    </div>
+                    <p class="company" data-translate="company">Freelancer Software Engineer</p>
+                    <ul class="experience-list">
+                        <li data-translate="exp1">تطوير وتنفيذ مجموعة من الأكواد مع تصميم واجهات المواقع</li>
+                        <li data-translate="exp2">المساهمة في تطوير الألعاب والتطبيقات بشكل فردي وجماعي</li>
+                        <li data-translate="exp3">تصميم الأعمال الفنية الرقمية للـ NFT</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills-section animate">
+            <div class="card red">
+                <h3 data-translate="skills"><i class="fas fa-tools"></i> المهارات</h3>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <h4 data-translate="techSkills"><i class="fas fa-code"></i> المهارات التقنية</h4>
+                        <ul>
+                            <li>HTML, CSS, JavaScript</li>
+                            <li>Python (Basics)</li>
+                            <li>UI/UX Design</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card">
+                        <h4 data-translate="languages"><i class="fas fa-language"></i> اللغات</h4>
+                        <ul>
+                            <li data-translate="arabic">العربية: اللغة الأم</li>
+                            <li data-translate="english">الإنجليزية: مستوى B1</li>
+                            <li data-translate="french">الفرنسية: متوسطة</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card">
+                        <h4 data-translate="softSkills"><i class="fas fa-brain"></i> المهارات الشخصية</h4>
+                        <ul>
+                            <li data-translate="selfLearning">التعلم الذاتي</li>
+                            <li data-translate="research">البحث والتحليل</li>
+                            <li data-translate="computerSkills">إتقان الأدوات الحاسوبية</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="education-section animate">
+            <div class="card red">
+                <h3 data-translate="education"><i class="fas fa-graduation-cap"></i> التعليم</h3>
+                <div class="education-card">
+                    <div class="education-item">
+                        <h4 data-translate="university">Sidi Mohammed Ben Abdellah University</h4>
+                        <p data-translate="universityDesc">طالب في السنة الأولى - دراسات إنجليزية</p>
+                    </div>
+                    <div class="education-item">
+                        <h4 data-translate="highSchool">Alal Al-Fassi High School</h4>
+                        <p data-translate="highSchoolDesc">دبلوم البكالوريا - علوم الحياة والأرض</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects-section animate">
+            <div class="card red">
+                <h3 data-translate="projects"><i class="fas fa-project-diagram"></i> المشاريع</h3>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h4><i class="fas fa-globe"></i> <span data-translate="project1">موقع شخصي</span></h4>
+                        <p data-translate="project1Desc">تصميم وتطوير موقع شخصي يعرض السيرة الذاتية والمهارات.</p>
+                    </div>
+                    <div class="project-card">
+                        <h4><i class="fas fa-gamepad"></i> <span data-translate="project2">لعبة تفاعلية</span></h4>
+                        <p data-translate="project2Desc">برمجة لعبة باستخدام محرك Godot.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p data-translate="thanks">شكرًا على زيارتك للموقع</p>
+        <div class="social-links">
+            <a href="https://wa.me/212679777254" class="social-btn whatsapp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://github.com/mhmd4656" class="social-btn github">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="mailto:Mohammed.elmandor@usmba.ac.ma" class="social-btn email">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
